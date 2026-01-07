@@ -14,7 +14,7 @@ const Bio: React.FC = () => {
           <div className="order-1 relative reveal">
             <div className="aspect-[3/4] md:aspect-[4/5] rounded-[2.5rem] lg:rounded-[3.5rem] overflow-hidden border border-[#c8a178]/20 shadow-[0_50px_100px_rgba(0,0,0,0.5)] group">
               <img
-                src="../assets/bruna-sobre.png"
+                src="../assets/bruna-sobre.PNG"
                 className="w-full h-full object-cover transition-transform duration-[10s] group-hover:scale-110"
                 alt="Dra. Bruna Mello"
               />
