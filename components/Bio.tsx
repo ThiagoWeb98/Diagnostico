@@ -57,7 +57,7 @@ const Bio: React.FC = () => {
 
             <div className="mt-14 flex justify-start">
               <button
-                onClick={() => window.open('https://wa.me/seu-numero', '_blank')}
+                onClick={() => window.open('https://bnrfxmop3u8.typeform.com/to/BRLBKgfi', '_blank')}
                 className="group relative flex items-center justify-center bg-gold-gradient text-[#1a120b] px-10 lg:px-12 py-5 lg:py-6 rounded-full font-black uppercase tracking-[0.2em] text-[10px] shadow-[0_20px_40px_rgba(200,161,120,0.3)] transition-all duration-700 hover:scale-105 active:scale-95 overflow-hidden border border-white/10"
               >
                 <span className="relative z-10">APLICAR PARA VAGA GRATUITA</span>

@@ -40,8 +40,8 @@ const ApplicationCriteria: React.FC = () => {
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 lg:gap-10 mb-16">
           {criteria.map((item, i) => (
-            <div 
-              key={i} 
+            <div
+              key={i}
               className="reveal bg-white p-10 lg:p-14 rounded-[3rem] border border-black/[0.03] shadow-[0_15px_50px_rgba(0,0,0,0.03)] hover:shadow-[0_30px_70px_rgba(200,161,120,0.15)] transition-all duration-700 hover:-translate-y-2 group"
             >
               <div className="flex justify-between items-start mb-8">
@@ -49,7 +49,7 @@ const ApplicationCriteria: React.FC = () => {
                   {item.num}
                 </span>
                 <div className="w-12 h-12 rounded-full bg-[#f2ede7] flex items-center justify-center text-[#c8a178] border border-[#c8a178]/10 group-hover:bg-[#c8a178] group-hover:text-white transition-all">
-                   <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M5 13l4 4L19 7" />
                   </svg>
                 </div>
@@ -63,8 +63,8 @@ const ApplicationCriteria: React.FC = () => {
         </div>
 
         <div className="flex justify-center reveal">
-          <button 
-            onClick={() => window.open('https://wa.me/seu-numero', '_blank')}
+          <button
+            onClick={() => window.open('https://bnrfxmop3u8.typeform.com/to/BRLBKgfi', '_blank')}
             className="group relative flex items-center justify-center bg-gold-gradient text-[#1a120b] px-10 lg:px-16 py-5 lg:py-6 rounded-full font-black uppercase tracking-[0.25em] text-[10px] shadow-[0_20px_50px_rgba(200,161,120,0.3)] transition-all duration-700 hover:scale-105 active:scale-95 overflow-hidden border border-black/5"
           >
             <span className="relative z-10">👉 QUERO APLICAR PARA UMA SESSÃO GRATUITA</span>
