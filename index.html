@@ -32,8 +32,8 @@
         :root {
             --color-bg: #1a120b;      
             --color-bg-light: #2b231a;
-            --color-accent: #e9e4df;   /* Champagne */
-            --color-primary: #c8a178;  /* Ouro */
+            --color-accent: #e9e4df;   
+            --color-primary: #c8a178;  
             --color-text: #f2f0ed;    
         }
         
@@ -50,7 +50,6 @@
             position: relative;
         }
 
-        /* Overlay de Granulação Premium */
         body::before {
             content: "";
             position: fixed;
@@ -69,7 +68,6 @@
             background: linear-gradient(135deg, #d4b494 0%, #9b6d4b 100%);
         }
 
-        /* Luzes Dinâmicas de Fundo */
         .bg-glow {
             position: fixed;
             width: 60vw;
@@ -87,7 +85,6 @@
             to { transform: translate(40%, 40%) scale(1.2); }
         }
 
-        /* Animações de Revelação */
         .reveal {
             opacity: 0;
             transform: translateY(40px);
@@ -109,17 +106,6 @@
         .animate-marquee {
             animation: marquee 50s linear infinite;
         }
-
-        .glass-card {
-            background: rgba(255, 255, 255, 0.02);
-            backdrop-filter: blur(15px);
-            border: 1px solid rgba(200, 161, 120, 0.1);
-        }
-        
-        .light-section {
-            background-color: #e9e4df;
-            color: #1a120b;
-        }
     </style>
 <script type="importmap">
 {
@@ -134,7 +120,8 @@
 </head>
 <body>
     <div class="bg-glow"></div>
-    <div class="bg-glow" style="animation-delay: -10s; right: 0; top: 0; background: radial-gradient(circle, rgba(155, 109, 75, 0.05) 0%, rgba(26, 18, 11, 0) 70%);"></div>
     <div id="root"></div>
+    <!-- PONTO DE ENTRADA CRUCIAL PARA HOSTINGER -->
+    <script type="module" src="./index.tsx"></script>
 </body>
 </html>

@@ -6,6 +6,16 @@ import Bio from './components/Bio';
 import Testimonials from './components/Testimonials';
 import DiscountTicker from './components/DiscountTicker';
 import AIAdvisor from './components/AIAdvisor';
+import TheProblem from './components/TheProblem';
+import PainPleasure from './components/PainPleasure';
+import Methodology from './components/Methodology';
+import Schedule from './components/Schedule';
+import AccessSection from './components/AccessSection';
+import TargetAudience from './components/TargetAudience';
+import Offer from './components/Offer';
+import Guarantee from './components/Guarantee';
+import FAQ from './components/FAQ';
+import RegistrationForm from './components/RegistrationForm';
 
 const App: React.FC = () => {
   useEffect(() => {
@@ -24,13 +34,18 @@ const App: React.FC = () => {
   }, []);
 
   return (
-    <div className="min-h-screen selection:bg-[#c8a178] selection:text-[#1a120b]">
+    <div className="min-h-screen selection:bg-[#c8a178] selection:text-[#1a120b] bg-[#1a120b]">
       <Hero />
       
+      <DiscountTicker text="✦ MÉTODO ACELERA CLÍNICAS ✦ GESTÃO PREMIUM ✦ LUCRO REAL ✦" light={false} />
+
+      <TheProblem />
+      
+      <PainPleasure />
+
       <div className="bg-[#f2ede7]">
         <ApplicationCriteria />
         
-        {/* TEXTO DE TRANSIÇÃO - PADDING MUITO MAIS COMPACTO */}
         <div className="py-12 lg:py-16 px-6 text-center reveal">
            <div className="max-w-3xl mx-auto relative">
              <div className="absolute -top-10 left-1/2 -translate-x-1/2 text-[#c8a178] opacity-10">
@@ -45,17 +60,32 @@ const App: React.FC = () => {
         </div>
       </div>
 
+      <Methodology />
+      
+      <Schedule />
+
       <Bio />
+
+      <AccessSection />
+
+      <TargetAudience />
 
       <div className="bg-[#e9e4df] relative overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-b from-[#1a120b]/5 to-transparent h-40 pointer-events-none"></div>
-        <DiscountTicker text="✦ VAGAS DISPONÍVEIS ✦ 100K ✦ GESTÃO PREMIUM ✦ LUCRO REAL ✦" light={true} />
+        <DiscountTicker text="✦ RESULTADOS REAIS ✦ 100K POR MÊS ✦ ESCALA INTELIGENTE ✦" light={true} />
         <Testimonials />
       </div>
+
+      <Offer />
+
+      <RegistrationForm />
+
+      <Guarantee />
       
-      <section className="py-24 lg:py-32 bg-[#1a120b] text-center px-6 relative overflow-hidden">
+      <FAQ />
+      
+      <section className="py-24 lg:py-32 bg-[#1a120b] text-center px-6 relative overflow-hidden border-t border-white/5">
         <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[800px] h-[400px] bg-[#c8a178]/5 rounded-full blur-[100px] pointer-events-none"></div>
-        <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-px bg-gradient-to-r from-transparent via-[#c8a178]/20 to-transparent"></div>
         
         <div className="max-w-4xl mx-auto reveal relative z-10">
           <span className="text-[#c8a178] uppercase tracking-[0.5em] text-[10px] font-bold mb-8 block">Próximo Passo</span>
@@ -79,16 +109,12 @@ const App: React.FC = () => {
         </div>
       </section>
 
-      <div className="bg-[#1a120b]">
-        <DiscountTicker text="✦ VAGAS DISPONÍVEIS ✦ 100K ✦ VAGAS DISPONÍVEIS ✦ 100K ✦" light={false} />
-      </div>
-
       <footer className="bg-[#140d08] py-16 px-6 text-center border-t border-white/5 relative overflow-hidden">
         <div className="max-w-6xl mx-auto relative z-10">
           <div className="flex flex-wrap justify-center gap-8 lg:gap-16 text-[#c5a689] text-[9px] uppercase tracking-[0.3em] font-bold mb-10">
-            <a href="#" className="hover:text-white transition-colors duration-500 underline decoration-transparent hover:decoration-[#c8a178] underline-offset-8">Política de Privacidade</a>
-            <a href="#" className="hover:text-white transition-colors duration-500 underline decoration-transparent hover:decoration-[#c8a178] underline-offset-8">Termos de Uso</a>
-            <a href="#" className="hover:text-white transition-colors duration-500 underline decoration-transparent hover:decoration-[#c8a178] underline-offset-8">Suporte VIP</a>
+            <a href="#" className="hover:text-white transition-colors duration-500">Política de Privacidade</a>
+            <a href="#" className="hover:text-white transition-colors duration-500">Termos de Uso</a>
+            <a href="#" className="hover:text-white transition-colors duration-500">Suporte VIP</a>
           </div>
           <div className="w-12 h-px bg-white/5 mx-auto mb-10"></div>
           <div className="text-[#c5a689]/20 text-[8px] tracking-[0.5em] font-medium uppercase">
