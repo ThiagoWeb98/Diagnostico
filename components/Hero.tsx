@@ -31,7 +31,7 @@ const Hero: React.FC = () => {
           <div className="reveal reveal-delay-2 active relative order-1 lg:order-2 block">
             <div className="relative aspect-[4/5] w-full max-w-[260px] md:max-w-[380px] mx-auto rounded-[2.5rem] overflow-hidden border border-white/10 shadow-[0_40px_100px_rgba(0,0,0,0.7)] group">
                <img 
-                 src="https://raw.githubusercontent.com/stackblitz/stackblitz-images/main/dra_bruna_mello_hero.jpg"
+                 src="https://srv1661-files.hstgr.io/f18d99defb5454dd/files/public_html/assets/IMG_2322.JPEG"
                  className="w-full h-full object-cover transition-transform duration-[6s] group-hover:scale-110"
                  alt="Dra. Bruna Mello"
                />
