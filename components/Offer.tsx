@@ -81,7 +81,7 @@ const Offer: React.FC = () => {
                   <p className="text-[#d4cabe]/10 text-[11px] mt-6 font-bold tracking-[0.4em] uppercase italic">Investimento em Ativo</p>
                 </div>
 
-                <button onClick={() => window.open('https://bnrfxmop3u8.typeform.com/to/BRLBKgfi', '_blank')} className="w-full bg-blend-niche text-[#050505] py-7 rounded-full font-bold uppercase tracking-[0.5em] text-[11px] shadow-[0_20px_40px_rgba(197,163,104,0.3)] hover:shadow-[0_25px_60px_rgba(197,163,104,0.5)] transition-all transform hover:scale-[1.02] active:scale-95 group relative overflow-hidden">
+                <button onClick={() => window.location.href = 'https://app.lightforms.io/JFOoBrF'} className="w-full bg-blend-niche text-[#050505] py-7 rounded-full font-bold uppercase tracking-[0.5em] text-[11px] shadow-[0_20px_40px_rgba(197,163,104,0.3)] hover:shadow-[0_25px_60px_rgba(197,163,104,0.5)] transition-all transform hover:scale-[1.02] active:scale-95 group relative overflow-hidden">
                   <span className="relative z-10">Garantir Minha Vaga VIP</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                 </button>
