@@ -70,7 +70,7 @@ const ApplicationCriteria: React.FC = () => {
 
         <div className="flex justify-center reveal">
           <button
-            onClick={() => window.open('https://bnrfxmop3u8.typeform.com/to/BRLBKgfi', '_blank')}
+            onClick={() => window.open('https://app.lightforms.io/JFOoBrF', '_blank')}
             className="group relative flex items-center justify-center bg-gold-gradient text-navy px-10 lg:px-16 py-5 lg:py-6 rounded-full font-black uppercase tracking-[0.25em] text-[10px] shadow-[0_20px_50px_rgba(212,175,55,0.3)] transition-all duration-700 hover:scale-105 active:scale-95 overflow-hidden border border-white/20"
           >
             <span className="relative z-10">👉 QUERO APLICAR PARA UMA VAGA</span>
