@@ -62,7 +62,7 @@ const Hero: React.FC = () => {
 
             <div className="reveal reveal-delay-3 active flex justify-center lg:justify-start">
               <button
-                onClick={() => window.location.href = 'https://app.lightforms.io/JFOoBrF'}
+                onClick={() => window.location.href = 'https://app.lightforms.io/zXCQtiu'}
                 className="group relative flex items-center justify-center bg-gold-gradient text-navy px-10 lg:px-14 py-5 lg:py-6 rounded-full font-black uppercase tracking-[0.25em] text-[10px] shadow-[0_10px_40px_rgba(212,175,55,0.4)] transition-all duration-700 hover:scale-105 active:scale-95 overflow-hidden border border-white/20"
               >
                 <span className="relative z-10">👉 PREENCHER O FORMULÁRIO DE APLICAÇÃO</span>
