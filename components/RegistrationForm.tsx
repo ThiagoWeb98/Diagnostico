@@ -106,7 +106,7 @@ const RegistrationForm: React.FC = () => {
                   />
                 </div>
 
-                <button type="button" onClick={() => window.open('https://app.lightforms.io/JFOoBrF', '_blank')} className="w-full bg-blend-niche text-[#040E1F] py-7 rounded-full font-bold uppercase tracking-[0.5em] text-[11px] shadow-[0_20px_40px_rgba(197,163,104,0.3)] hover:shadow-[0_25px_60px_rgba(197,163,104,0.5)] transition-all transform hover:scale-[1.02] active:scale-95 group relative overflow-hidden mt-6">
+                <button type="button" onClick={() => window.open('https://app.lightforms.io/zXCQtiu', '_blank')} className="w-full bg-blend-niche text-[#040E1F] py-7 rounded-full font-bold uppercase tracking-[0.5em] text-[11px] shadow-[0_20px_40px_rgba(197,163,104,0.3)] hover:shadow-[0_25px_60px_rgba(197,163,104,0.5)] transition-all transform hover:scale-[1.02] active:scale-95 group relative overflow-hidden mt-6">
                   <span className="relative z-10">Solicitar Minha Inscrição VIP</span>
                   <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/20 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000"></div>
                 </button>
